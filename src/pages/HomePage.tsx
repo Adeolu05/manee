@@ -1,4 +1,4 @@
-import React from "react";
+
 import { AppShell } from "../components/layout/AppShell";
 import { BalanceCard } from "../components/wallet/BalanceCard";
 import { FrequentRecipients } from "../components/wallet/FrequentRecipients";

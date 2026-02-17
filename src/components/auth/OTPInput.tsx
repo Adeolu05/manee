@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { type KeyboardEvent, useEffect, useRef } from "react";
 
 type OTPInputProps = {
     length?: number;
@@ -36,7 +36,7 @@ export function OTPInput({
         }
     };
 
-    const handleKeyDown = (index: number, e: React.KeyboardEvent) => {
+    const handleKeyDown = (index: number, e: KeyboardEvent) => {
         if (e.key === "Backspace" && !value[index] && index > 0) {
             inputsRef.current[index - 1]?.focus();
         }
@@ -47,7 +47,7 @@ export function OTPInput({
             {Array.from({ length }).map((_, index) => (
                 <input
                     key={index}
-                    ref={(el) => (inputsRef.current[index] = el)}
+                    ref={(el) => { inputsRef.current[index] = el; }}
                     type="text"
                     inputMode="numeric"
                     maxLength={1}

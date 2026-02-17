@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import eyeIcon from "../../assets/icons/icon-eye.svg";
 import eyeOffIcon from "../../assets/icons/icon-eye-off.svg";
 

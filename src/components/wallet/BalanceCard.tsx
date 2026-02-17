@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import iconEyeOpen from "../../assets/icons/icon-eye-open.svg";
 import iconEyeOff from "../../assets/icons/icon-eye-off.svg";

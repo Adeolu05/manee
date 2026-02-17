@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AuthLayout } from "../components/auth/AuthLayout";
 import { Input } from "../components/ui/Input";
 import { PasswordInput } from "../components/ui/PasswordInput";

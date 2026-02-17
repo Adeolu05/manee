@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const actions = [
     "Send $5 to +86…878",

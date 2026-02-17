@@ -1,6 +1,6 @@
-import React from "react";
+import type { InputHTMLAttributes } from "react";
 
-type InputProps = React.InputHTMLAttributes<HTMLInputElement> & {
+type InputProps = InputHTMLAttributes<HTMLInputElement> & {
     label?: string;
     helperText?: string;
     error?: string;

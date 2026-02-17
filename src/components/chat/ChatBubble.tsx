@@ -1,4 +1,4 @@
-import React from "react";
+
 import type { ChatMessage } from "../../lib/chatTypes";
 
 export function ChatBubble({ message }: { message: ChatMessage }) {

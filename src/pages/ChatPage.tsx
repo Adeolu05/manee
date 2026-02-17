@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState, useEffect } from "react";
+import { useMemo, useRef, useState, useEffect } from "react";
 import { AppShell } from "../components/layout/AppShell";
 import { ChatBubble } from "../components/chat/ChatBubble";
 import { ChatInput } from "../components/chat/ChatInput";
