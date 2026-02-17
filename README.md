@@ -2,7 +2,7 @@
 
 A modern, secure, and user-friendly crypto wallet interface built with React and TypeScript.
 
-![Manee Web Wallet](https://placehold.co/600x400?text=Manee+Web+Wallet)
+![Manee Web Wallet](src/assets/logo/manee-logo.svg)
 
 ## Features
 
@@ -31,7 +31,7 @@ A modern, secure, and user-friendly crypto wallet interface built with React and
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/manee-web.git
+   git clone https://github.com/Adeolu05/manee-web.git
    ```
 
 2. Navigate to the project directory:

@@ -20,7 +20,7 @@ export function InviteBanner() {
             {/* Front Card Group */}
             <div className="relative -mx-1.5 flex flex-col">
                 {/* Top Section - Light Purple */}
-                <div className="flex items-center gap-2.5 rounded-[16px] bg-[#F0EEFA] px-4 py-3.5">
+                <div className="flex items-center justify-center gap-2.5 rounded-[16px] bg-[#F0EEFA] px-4 py-3.5">
                     <img src={iconGift} alt="" className="h-6 w-6 shrink-0" />
                     <span className="text-[13px] font-medium text-text leading-snug">
                         Earn 20 $GS for each friend you invite.
