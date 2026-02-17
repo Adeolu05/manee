@@ -1,0 +1,21 @@
+
+> manee-web@0.0.0 lint
+> eslint .
+
+
+C:\Users\USER\David\Projects\manee-web\src\pages\TxSuccessPage.tsx
+  28:22  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\USER\David\Projects\manee-web\src\pages\TxSuccessPage.tsx:28:22
+  26 |         fee: "$0.01",
+  27 |         eta: "Instant",
+> 28 |         ref: "TX-" + Math.random().toString(36).slice(2, 8).toUpperCase(),
+     |                      ^^^^^^^^^^^^^ Cannot call impure function
+  29 |     }, [tx]);
+  30 |
+  31 |     return (  react-hooks/purity
+
+✖ 1 problem (1 error, 0 warnings)
+
